@@ -2,6 +2,8 @@
 
 This repo is set up help me record my studies into ranking algorithms and my initial dive into basketball analytics.
 
+![Alt text](figures/elo_NWE.png?raw=true "Northwestern Divison elo ratings after 3/31/2021")
+
 ---
 
 **TODO**
