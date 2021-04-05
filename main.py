@@ -30,6 +30,8 @@ for name in tnames:
     newteam = Team.Team(name, datesdict)
     teams.append(newteam)
 
+Elo.enable_statistics()
+
 # Calculate Elo based on game results
 for i in range(len(games)):
     curr_game = games.iloc[i]
@@ -118,3 +120,5 @@ ax.set_ylabel('Elo Rating')
 
 figname = f'{figdir}/nba_elo.png'
 fig.savefig(figname)
+
+print(f'{Elo.correct/Elo.total_games:.4f}')
